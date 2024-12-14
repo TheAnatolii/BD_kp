@@ -1,0 +1,12 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres-container
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: student_1
+      POSTGRES_PASSWORD: student_1
+      POSTGRES_DB: Neural_Network_Service
+    volumes:
+      - /Users/anatolii/Универ/BD/container/data:/var/lib/postgresql/data

@@ -1,0 +1,12 @@
+unique_identifiers:
+  Model_Parameters: parameter_id
+  Version_Status: status_id
+  Model_Versions: version_id
+  Models: model_id
+  Session_Status: status_id
+  Training_Sessions: sessions_id
+  Datasets: dataset_id
+  Training_Metrics: metric_id
+  Dataset_Metadata: metadata_id
+#  User_Permissions: permission_id
+  Users: user_id
